@@ -1,3 +1,14 @@
-__pycache__
+__pycache__/
 .env
 .learn
+.ipynb_checkpoints/
+*.egg-info/
+.cache/
+.virtualenvs/
+venv/
+.venv/
+# Hugging Face cache (pesos del modelo NO deben versionarse)
+.cache/huggingface/
+~/.cache/huggingface/
+# No ignorar CSV procesado (es entregable)
+!data/processed/*.csv

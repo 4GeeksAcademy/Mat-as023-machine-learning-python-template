@@ -1,0 +1,5 @@
+# Normalizar finales de línea a LF y evitar problemas de CRLF
+* text=auto
+
+# Datasets CSV
+*.csv text eol=lf
